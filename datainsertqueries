@@ -1,0 +1,149 @@
+CREATE TABLE BOOKINLIB(
+   ISBN    VARCHAR(23) NOT NULL PRIMARY KEY
+  ,Title   VARCHAR(101) NOT NULL
+  ,Binding_type VARCHAR(9) NOT NULL
+  ,Language VARCHAR(7) NOT NULL
+  ,Author  VARCHAR(36)
+  ,Subject VARCHAR(19) NOT NULL
+  ,Available VARCHAR(3) NOT NULL
+  ,Can_be_lent VARCHAR(3) NOT NULL
+  ,No_of_copies INTEGER  NOT NULL
+  ,Lented_books INTEGER  NOT NULL
+  ,Book_descp VARCHAR(487)
+);
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1169811119','The Mummy: A HandBOOKINLIB of Egyptian Funerary Archaeology','Hardcover','English','E A Wallis Budge','Archaelogy','Yes','Yes',3,1,'This scarce antiquarian BOOKINLIB is a facsimile reprint of the original');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0262033848','Introduction to Algorithms','Hardcover','English','Thomas H Cormen','Computer Science','Yes','No',1,0,'The latest edition of the essential text and professional reference, with substantial new material on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-based flow.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('��1-58243-011-X','The Law of Freedom in a Platform','Hardcover','English','Gerrard Winstanley','Anarchism','Yes','Yes',3,3,'The Law of Freedom in a Platform�is a six-chapter BOOKINLIB (described in the English of the time as a ''pamphlet'') published in 1652 by�Gerrard Winstanley, the leader of the�Diggers�movement. In the BOOKINLIB he argued that under a Christian basis for society, property and wages should be abolished. In keeping with Winstanley''s adherence to biblical models, the tract envisages a communistic society structured on non-hierarchical lines, establishing the beginnings of modern�Christian anarchism');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1-58435-167-2','The Invisible Committee','Hardcover','French','The Invisible Committee','Anarchism','No','No',0,0,'The Invisible Committee�is the�nom de plume�of an anonymous author or authors who have written�French�works of literature based on�far-left politics, and�anarchism');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0-8129-9356-1','The Democracy Project','Hardcover','English','David Graeber','Anarchism','No','No',0,0,'The Democracy Project: A History, a Crisis, a Movement�is anthropologist�David Graeber''s 2013 BOOKINLIB-length, inside account of the�Occupy Wall Street.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0133970777','Fundamentals of Database Systems (7th Edition)','Hardcover','English','Ramez Elmasri and Shamkant B Navathe','Database Management','Yes','Yes',2,1,'This BOOKINLIB introduces the fundamental concepts necessary for designing, using, and implementing database systems and database applications');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('�978-0072465631','Database Management Systems, 3rd Edition','Hardcover','English','Rahu Ramakrisshnan','Database Management','Yes','Yes',3,2,'Database Management Systems�provides comprehensive and up-to-date coverage of the fundamentals of database systems.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0785421825','AGS General Science�','Hardcover','English','�Robert Marshall','General Science','Yes','No',2,0,NULL);
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1433545917','Biblical Doctrine: A Systematic Summary of Bible Truth�','Hardcover','English',NULL,'Bibliographies','No','No',0,0,'Doctrine isn�t just for theologians�it�s important for every Christian because it shows us who God is and how we should live. Systematizing the robust theology that has undergirded Dr. John MacArthur�s well-known preaching ministry for decades, this overview of basic Christian doctrine covers topics such as God the Father, Jesus Christ, the Holy Spirit, the Bible, salvation, and more');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('�978-1577315933','The Hero with a Thousand Faces','Hardcover','English','Joseph Campbell','Encyclopedia','Yes','Yes',3,1,'The Hero with a Thousand Faces�has influenced millions of readers by combining the insights of modern psychology with Joseph Campbell�s revolutionary understanding of comparative mythology');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0756668617','The Philosophy BOOKINLIB: Big Ideas Simply Explained','Hardcover','English','Will Buckhingham','Philosophy','No','No',0,0,'Are the ideas of Ren� Descartes, Mary Wollstonecraft, John Locke, and Thomas Hobbes still relevant today?�The Philosophy BOOKINLIB�unpacks the writings and ideas of more than 100 of history''s biggest thinkers, taking you on a journey from Ancient Greece to modern day. Explore feminism, rationalism, idealism, existentialism, and other influential movements in the world of philosophy.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1591451884','Jesus Calling: Enjoying Peace in His Presence','Hardcover','English','Sarah Young','Religion','Yes','Yes',3,2,'Jesus Calling�is a devotional filled with uniquely inspired treasures from heaven for every day of the year.� After many years of writing in her prayer journal, missionary Sarah Young decided to listen to God with pen in hand, writing down whatever she believed�');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0345816023','12 Rules for Life: An Antidote to Chaos','Hardcover','English','Jordan B Peterson','Ethics','Yes','Yes',3,3,'What does everyone in the modern world need to know? Renowned psychologist Jordan B. Peterson''s answer to this most difficult of questions uniquely combines the hard-won truths of ancient tradition with the stunning revelations of cutting-edge scientific research.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('�978-0143110910','Behave: The Biology of Humans at Our Best and Worst','Hardcover','English','�Robert M. Sapolsky','Psychology','Yes','Yes',3,1,'From the celebrated neurobiologist and primatologist, a landmark, genre-defining examination of human behavior, both good and bad, and an answer to the question:�Why do we do the things we do?');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1437716986','Psychiatric Interviewing: The Art of Understanding','Hardcover','English','�Shawn Christopher Shea MD�','Pysciatry','No','No',0,0,'With time at a premium, today''s clinicians must rapidly engage their patients while gathering an imposingly large amount of critical information. These clinicians appropriately worry that the "person" beneath the diagnoses will be lost in the shuffle of time constraints, data gathering, and the creation of the electronic health record.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0368695469','An Outline of Occult Science','Hardcover','English','�Rudolph Steiner','Occult Sciences','Yes','Yes',2,2,'At the present time the words "occult science" are apt to arouse the most varied feelings. Upon some people they work like a magic charm, like the announcement of something to which they feel attracted by the innermost powers of their soul; to others there is in the words something repellent, calling forth contempt, derision, or a compassionate smile.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1635579987','The Madness of Crowds: Gender, Race and Identity','Hardcover','English','Doughlas Murray','Social Sciences','No','No',0,0,'In his devastating new BOOKINLIB�The Madness of Crowds, Douglas Murray examines the twenty-first century''s most divisive issues: sexuality, gender, technology and race. He reveals the astonishing new culture wars playing out in our workplaces, universities, schools and homes in the names of social justice, identity politics and intersectionality.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0134205571','Sociology: A Down-To-Earth Approach (13th Edition)','Hardcover','English','�James M Henslin','Sociology','Yes','Yes',3,2,'Sociology: A Down-to-Earth Approach�highlights the sociology of everyday life and its relevance to students� lives. Throughout the text, author James Henslin shares the excitement of sociology through his acclaimed down-to-earth approach and personal writing style');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('�978-0525576709','The Uninhabitable Earth: Life After Warming','Hardcover','English','�David Wallace-Wells','Sociology','Yes','Yes',4,3,'The Uninhabitable Earth�is also an impassioned call to action. For just as the world was brought to the brink of catastrophe within the span of a lifetime, the responsibility to avoid it now belongs to a single generation�today�s.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('�978-1501158148','What It Takes: Lessons in the Pursuit of Excellence','Hardcover','English','�Stephen A. Schwarzman','Business','Yes','Yes',2,2,'From Blackstone chairman, CEO, and co-founder Stephen A. Schwarzman, a long-awaited BOOKINLIB that uses impactful episodes from Schwarzman''s life to show readers how to build, transform, and lead thriving organizations. Whether you are a student, entrepreneur, philanthropist, executive, or simply someone looking for ways to maximize your potential, the same lessons apply.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1626346451','Trailblazer: From the Mountains of Kashmir to the Summit of Global Business and Beyond','Hardcover','English','Farooq Kathwari','Business','Yes','No',4,0,'Brimming with drama, insight, and unexpected humor, Trailblazer recounts a unique life story, offering readers not just an engrossing journey but also the wisdom of an exceptional leader.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0525575474','Blowout: Corrupted Democracy, Rogue State Russia, and the Richest, Most Destructive Industry on Earth','Hardcover','English','Rachel Maddow','Political Science','No','No',0,0,'With her trademark black humor, Maddow takes us on a switchback journey around the globe, revealing the greed and incompetence of Big Oil and Gas along the way, and drawing a surprising conclusion about why the Russian government hacked the 2016 U.S. election');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1544308135','Contemporary Criminal Law: Concepts, Cases, and Controversies','Paperback','English','Matthew Lippman','Law','No','No',0,0,'�The BOOKINLIB provides a contemporary perspective on criminal law that encourages students to actively read and analyze the text.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0190866112','Climate Change: What Everyone Needs to Know','Hardcover','English','Joseph Romm','Global warming','No','No',0,0,'As the global response to climate change continues to evolve,�Climate Change: What Everyone Needs to Know��offers smart, unbiased answers to the most difficult questions in an area dogged by misunderstanding and politicization.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('�978-0062368539','Why Religion?: A Personal Story','Hardcover','English','Elaine Pagels','Religion','Yes','Yes',3,2,'Why is religion still around in the twenty-first century? Why do so many still believe? And how do various traditions still shape the way people experience everything from sexuality to politics, whether they are religious or not? In�Why Religion?�Elaine Pagels looks to her own life to help address these questions.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0195326857','The Fundamentals of Ethics','Hardcover','English','Russ Shafer Landau','Ethics','Yes','Yes',3,2,'In�The Fundamentals of Ethics,�author Russ Shafer-Landau employs a uniquely engaging writing style to introduce students to the essential ideas of moral philosophy');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('�978-0310536420','Moral Choices: An Introduction to Ethics','Hardcover','English','Scott Rae','Ethics','Yes','Yes',2,2,'Moral Choices�outlines the distinctive elements of Christian ethics while avoiding undue dogmatism');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-1942121039','Business Boutique: A Woman''s Guide for Making Money Doing What She Loves','Hardcover','English','Christy Wright','Business','Yes','Yes',4,3,'There is a movement of women stepping into their God-given gifts to make money doing what they love. If you''re ready to join them, this is your handBOOKINLIB that will take the ideas in your head and the dream in your heart and turn them into action.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('978-0008313692','The Little BOOKINLIB of Sloth Philosophy�','Hardcover','English','Jennifer McCartney','Philosophy','Yes','Yes',3,3,'Dispelling over-complicated myths about productivity, this brilliant BOOKINLIB confirms that it really is OK to be a sloth.');
+INSERT INTO BOOKINLIB(ISBN,Title,Binding_type,Language,Author,Subject,Available,Can_be_lent,No_of_copies,Lented_books,Book_descp) VALUES ('�978-1501124020','Principles: Life and Work','Hardcover','English','Ray Dalio','Buisness','No','No',0,0,'Ray Dalio, one of the world�s most successful investors and entrepreneurs, shares the unconventional principles that he�s developed, refined, and used over the past forty years to create unique results in both life and business�and which any person or organization can adopt to help achieve their goals.');
+CREATE TABLE DESCRIPTION(
+   REF_LIB_SSN INTEGER  NOT NULL 
+  ,AVAILABLE_IN_LIB_ISBN VARCHAR(23) NOT NULL,
+FOREIGN KEY(REF_LIB_SSN) REFERENCES STAFF_MEMBER(STAFF_SSN),
+   FOREIGN KEY(AVAILABLE_IN_LIB_ISBN) REFERENCES BOOKINLIB(ISBN)
+);
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-1169811119');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-0262033848');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'��1-58243-011-X');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-0133970777');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'�978-0072465631');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'�978-1577315933');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-1591451884');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-0345816023');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'�978-0143110910');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-0368695469');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-0134205571');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'�978-0525576709');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'�978-1501158148');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'�978-0062368539');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-0195326857');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'�978-0310536420');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-1942121039');
+INSERT INTO DESCRIPTION(REF_LIB_SSN,AVAILABLE_IN_LIB_ISBN) VALUES (9457842187,'978-0008313692');
+CREATE TABLE ISSUE_BOOK(
+   STAFF_SSN INTEGER  NOT NULL PRIMARY KEY
+  ,SSN    INTEGER  NOT NULL
+  ,ISBN   VARCHAR(31) NOT NULL
+  ,Issue_date VARCHAR(12)  NOT NULL
+  ,Date_of_reminder VARCHAR(12) NOT NULL
+  ,Due_date VARCHAR(12) NOT NULL
+  ,Grace_period INT  NOT NULL
+, 
+ 
+  constraint FK_STAFF_SSN FOREIGN KEY(STAFF_SSN) REFERENCES STAFF_MEMBER(STAFF_SSN),
+    FOREIGN KEY(SSN) REFERENCES LIBRARY_MEMBER(SSN),
+    FOREIGN KEY(ISBN) REFERENCES BOOKINLIB(ISBN)
+);
+INSERT INTO ISSUE_BOOK(STAFF_SSN,SSN,ISBN,Issue_date,Date_of_reminder,Due_date,Grace_period) VALUES (3465821476,9458214594,'978-1169811119','2019-07-01','2019-07-29','2019-07-22',1);
+INSERT INTO ISSUE_BOOK(STAFF_SSN,SSN,ISBN,Issue_date,Date_of_reminder,Due_date,Grace_period) VALUES (2134587415,4225187521,'978-0262033848','12','2019-06-12','2019-07-09','2019-07-02',1);
+INSERT INTO ISSUE_BOOK(STAFF_SSN,SSN,ISBN,Issue_date,Date_of_reminder,Due_date,Grace_period) VALUES (9457842187,9658424834,'��1-58243-011-X','2019-10-09','2019-11-07','2019-10-30',1);
+INSERT INTO ISSUE_BOOK(STAFF_SSN,SSN,ISBN,Issue_date,Date_of_reminder,Due_date,Grace_period) VALUES (9797975486,4887514484,'978-0133970777','2019-04-06','2019-05-04','2019-04-27',1);
+INSERT INTO ISSUE_BOOK(STAFF_SSN,SSN,ISBN,Issue_date,Date_of_reminder,Due_date,Grace_period) VALUES (2147354395,9484157318,'�978-0072465631','2019-05-04','2019-06-02','2019-05-25',1);
+CREATE TABLE ISSUE_CARD(
+   SSN    INTEGER  NOT NULL PRIMARY KEY 
+  ,Date_of_expiry VARCHAR(12)  NOT NULL
+  ,STAFF_SSN INTEGER  NOT NULL,
+FOREIGN KEY(SSN) REFERENCES LIBRARY_MEMBER(SSN),
+    FOREIGN KEY(STAFF_SSN) REFERENCES STAFF_MEMBER(STAFF_SSN)
+);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (9458214594,'2019-06-04',3465821476);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (4225187521,'2019-10-09',2134587415);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (9658424834,'2019-10-10',9457842187);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (4887514484,'2019-11-15',9797975486);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (9484157318,'2019-12-15',2147354395);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (3332549657,'2020-01-01',3465821476);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (9458462517,'2019-12-20',2134587415);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (1592888887,'2019-11-26',9457842187);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (9365934147,'2019-11-25',9797975486);
+INSERT INTO ISSUE_CARD(SSN,Date_of_expiry,STAFF_SSN) VALUES (9473528143,'2019-03-12',2147354395);
+CREATE TABLE LIBRARY_MEMBER(
+   SSN    INTEGER  NOT NULL PRIMARY KEY 
+  ,Camp_add VARCHAR(22) NOT NULL
+  ,Home_add VARCHAR(36) NOT NULL
+  ,PH_NO  INTEGER  NOT NULL
+  ,No_of_Issued_books INTEGER  NOT NULL
+  ,IsProf VARCHAR(3) NOT NULL
+  ,Memb_type VARCHAR(9) NOT NULL
+);
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (9458214594,'101 S OAK STREET','HNO 45 S COOPER STREET ARLINGTON, TX',3254682458,3,'YES','Active');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (4225187521,'113 UNIVERSITY VILLAGE','HNO 64 W DISTRICT DALLAS ,TX',3156481253,2,'NO','Inactive');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (9658424834,'245 HEIGHTS ON PECAN','HNO 32 S OAK STREET ARLINGTON,TX',9476584627,0,'NO','Inactive');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (4887514484,'109 LIPSCOMB HALL','HNO 23 NEDDERMEN DRIVE ARLINGTON,TX',2364644449,5,'NO','Active');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (9484157318,'234 KC HALL','HNO 54 GREEN BELT IRVING,TX',3241576842,5,'YES','Active');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (3332549657,'720 ARLINGTON HALL','APT 43 VAGAUE APTS DALLAS,TX',3635915654,4,'YES','Active');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (9458462517,'215 MEADOW RUN','238 GREEK ROW EL PASO,TX',1545421943,1,'NO','Inactive');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (1592888887,'245 ARBOR OAKS','259 NORTH BLACK ROUTE ARLINGTON,TX',4862348664,4,'NO','Active');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (9365934147,'404 BORDER APTS','65 SOUTH VIEW LANE DALLAS,TX',3144341763,0,'NO','Inactive');
+INSERT INTO LIBRARY_MEMBER(SSN,Camp_add,Home_add,PH_NO,No_of_Issued_books,IsProf,Memb_type) VALUES (9473528143,'142 LIPSCOMB HALL','545 MAIDEN STREET IRVING,TX',2266738664,5,'NO','Active');
+CREATE TABLE NOTICE(
+   STAFF_SSN INTEGER  NOT NULL
+  ,SSN    INTEGER  NOT NULL
+  ,Address VARCHAR(22) NOT NULL
+ ,FOREIGN KEY(STAFF_SSN) REFERENCES STAFF_MEMBER(STAFF_SSN),
+    FOREIGN KEY(SSN) REFERENCES LIBRARY_MEMBER(SSN)
+);
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (3465821476,9458214594,'101 S OAK STREET');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (2134587415,4225187521,'113 UNIVERSITY VILLAGE');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (9457842187,9658424834,'245 HEIGHTS ON PECAN');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (9797975486,4887514484,'109 LIPSCOMB HALL');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (2147354395,9484157318,'234 KC HALL');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (3465821476,3332549657,'720 ARLINGTON HALL');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (2134587415,9458462517,'215 MEADOW RUN');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (9457842187,1592888887,'245 ARBOR OAKS');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (9797975486,9365934147,'404 BORDER APTS');
+INSERT INTO NOTICE(STAFF_SSN,SSN,Address) VALUES (2147354395,9473528143,'142 LIPSCOMB HALL');
+CREATE TABLE STAFF_MEMBER(
+   STAFF_SSN INTEGER  NOT NULL PRIMARY KEY 
+  ,Name   VARCHAR(15) NOT NULL
+  ,Job_type VARCHAR(19) NOT NULL
+);
+INSERT INTO STAFF_MEMBER(STAFF_SSN,Name,Job_type) VALUES (3465821476,'Glen Smith','Chief Librarian');
+INSERT INTO STAFF_MEMBER(STAFF_SSN,Name,Job_type) VALUES (2134587415,'Mike Russel','Check out staff');
+INSERT INTO STAFF_MEMBER(STAFF_SSN,Name,Job_type) VALUES (9457842187,'Rajat Chaudhary','Reference Librarian');
+INSERT INTO STAFF_MEMBER(STAFF_SSN,Name,Job_type) VALUES (9797975486,'Victoria Ray','Dept associate lib');
+INSERT INTO STAFF_MEMBER(STAFF_SSN,Name,Job_type) VALUES (2147354395,'Smriti jain','Check out staff');
